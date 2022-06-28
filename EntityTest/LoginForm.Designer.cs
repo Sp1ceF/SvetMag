@@ -108,6 +108,7 @@ namespace EntityTest
             // 
             this.textBox2.Location = new System.Drawing.Point(98, 95);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(195, 21);
             this.textBox2.TabIndex = 5;
             // 

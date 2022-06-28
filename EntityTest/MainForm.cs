@@ -25,7 +25,7 @@ namespace EntityTest
             if (form.ShowDialog() == DialogResult.OK)
             {
                 loggedUser = form.user;
-                
+                label3.Text = $"Аккаунт: {loggedUser.Login} \nУровень доступа: {loggedUser.Authority}";
             }
         }
 

@@ -116,11 +116,13 @@ namespace EntityTest
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(322, 375);
+            this.label3.Font = new System.Drawing.Font("Roboto Thin", 20.25F);
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(318, 375);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(192, 33);
             this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
+            this.label3.Text = "Аккаунт: Гость";
             // 
             // MainForm
             // 
